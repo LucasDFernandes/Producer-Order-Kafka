@@ -19,7 +19,7 @@ import br.com.alura.order.kafka.lib.KafkaDispatcher;
 @RequestMapping("/order")
 public class OrderController {
 
-	private static final String TOPIC_NAME_NEW_ORDER_SERVICE = "ECOMMERCE_NEW_ORDER";
+	private static final String TOPIC_NAME_NEW_ORDER_SERVICE = "ECOMMERCE_ORDER_APPROVED";
 	private static final String TOPIC_NAME_EMAIL_SERVICE = "ECOMMERCE_SEND_EMAIL";
 	private static final String BODY = "thank you, we are processing you order!";
 
